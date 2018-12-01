@@ -32,7 +32,7 @@ gulp.task('serve', () => {
   });
 });
 
-gulp.task('ghpages', () => gulp.src('./out/**/*').pipe(ghPages({branch: 'master'})));
+gulp.task('ghpages', () => gulp.src('./out/**/*').pipe(ghPages()));
 
 gulp.task('deploy', ['build', 'ghpages']);
 gulp.task('build', ['pug', 'stylus']);
