@@ -24,8 +24,8 @@ $ npm install -g gulp-cli
 **2 -** Clone o projeto e installe as dependêcias:
 
 ```sh
-$ git clone https://github.com/LarissaAbreu/my-app.git
-$ cd my-app
+$ git clone https://github.com/LarissaAbreu/web-component-good-practices.git
+$ cd web-component-good-practices
 $ npm install
 ```
 
@@ -43,25 +43,16 @@ $ gulp server
       ├── CONTRIBUTING.md
       ├── out/
       ├── src/
-      |   ├── icons/
       |   ├── assets/
-      |   |   ├── img/
-      |   |   ├── scripts/
-      |   |   |   └── script.js
       |   |   └── styles/
-      |   |       ├── modules/
       |   |       └── style.styl
       |   ├── partials/
-      |   |   ├── footer.pug
-      |   |   └── header.pug
+      |   |   └── analytics.html
       |   ├── layouts/
       |   |   └── default.pug
-      |   ├── projects.pug
       |   └── index.pug
       ├── gulpfile.js
       ├── package.json
-      ├── projects.json
-      ├── .editorconfig
       └── .gitignore
 
 ## Tarefas automatizadas
@@ -76,10 +67,10 @@ Para manter uma melhor organização, seguiremos as diretrizes do [Versionamento
 
 ## Contribuição
 
-Veja no [guia](https://github.com/LarissaAbreu/my-app/issues) os próximos passos do projeto ;)
+Veja no [guia](https://github.com/LarissaAbreu/web-components-good-practices/issues) os próximos passos do projeto ;)
 <br>
-Quer contrinuir? [Siga essas recomendações](https://github.com/LarissaAbreu/my-app/blob/master/CONTRIBUTING.md).
+Quer contrinuir? [Siga essas recomendações](https://github.com/LarissaAbreu/web-components-good-practices/blob/master/CONTRIBUTING.md).
 
 ## Licença
 
-[Licença MIT](https://github.com/LarissaAbreu/my-app/blob/master/LICENSE.md) © [Larissa Abreu](http://larissaabreu.github.io/)
+[Licença MIT](https://github.com/LarissaAbreu/web-components-good-practices/blob/master/LICENSE.md) © [Larissa Abreu](http://larissaabreu.github.io/)
